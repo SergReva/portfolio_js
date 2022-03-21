@@ -19,7 +19,6 @@ tabTitle.forEach((title)=>{
     title.dataset.tabsField = 'body';
   } else {
     title.dataset.tabsField = 'interior';
-    
   }
 })
 
