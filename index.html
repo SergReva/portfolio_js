@@ -9,10 +9,13 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.min.css">
+	<link rel="stylesheet" href="./styles/style.css">
 	<script src="./js/tabs.js" defer></script>
 	<script src="./js/modal.js" defer></script>
 	<script src="./js/menu.js" defer></script>
 	<script src="./js/accordeon.js" defer></script>
+	<script src="./js/timer.js" defer></script>
+	<script src="./js/scroll.js" defer></script>
 </head>
 
 <body>
@@ -313,7 +316,27 @@
 	<!-- /.timer start-->
 	<div class="timer">
 		<p class="timer__text">до 31 марта скидка 20% на все услуги</p>
-		<p class="timer__time">21:13:33</p>
+	</div>
+
+	<div class="timer-wrap timer">
+		<div class="timer-block ">
+				<div class="remaining-box ">
+					<p id="days-remaining">2</p>
+					<p id="days-text">Дней</p>
+				</div> <span class="dots">:</span>
+				<div class="remaining-box">
+					<p id="hours-remaining">12</p>
+					<p id="hours-text">Часов</p>
+				</div> <span class="dots">:</span>
+				<div class="remaining-box">
+					<p id="minutes-remaining">45</p>
+					<p id="minutes-text">Минут</p>
+				</div> <span class="dots">:</span>
+				<div class="remaining-box">
+					<p id="seconds-remaining">55</p>
+					<p id="seconds-text">Секунд</p>
+				</div>
+		</div>
 	</div>
 	<!-- /.timer -->
 
@@ -367,6 +390,7 @@
 		</div>
 	</div>
 	<!-- modal (end) -->
+	<script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
 </body>
 
 </html>
