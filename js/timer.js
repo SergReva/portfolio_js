@@ -2,7 +2,7 @@ const dayBlock = document.getElementById('days-remaining'),
   hoursBlock = document.getElementById('hours-remaining'),
   minutesBlock = document.getElementById('minutes-remaining'),
   secondsBlock = document.getElementById('seconds-remaining'),
-  deadLine = '27 march 2022';
+  deadLine = '29 may 2022';
 
 let interval;
 
